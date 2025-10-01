@@ -1,19 +1,18 @@
+@media only screen and (max-width: 1300px){
 * {
-    padding: 0;
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+}
+body {
     margin: 0;
-    box-sizing: border-box;
 }
 div {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-}
-body {
-    font-weight: 700;
-    line-height: 100%;
-    font-size: 20px;
-    font-family: 'Be Vietnam Pro';
 }
 header {
     display: flex;
@@ -24,28 +23,27 @@ header {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1245px;
     align-items: center;
 }
 .button {
     background-color: #E2E2E2;
     border-radius: 8px;
-}
-#logo {
-    width: 200px;
-    height: 60px;
     margin-right: 2%;
 }
+#logo {
+    width: 140px;
+    height: 42px;
+}
 #menu {
-    width: 820px;
-    height: 34px;
+    width: 418px;
+    height: 30px;
 }
 #button {
-    width: 120px;
-    height: 42px;
-    margin-left: 2%;
+    width: 102px;
+    height: 36px;
 }
-.container {  
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -53,7 +51,7 @@ header {
     flex-direction: column;
     padding-bottom: 40px;
     padding-top: 40px;
-}  
+}
 .gray {
     background-color: #F1F1F1;
 }
@@ -65,36 +63,39 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
 }
+.button {
+    background-color: #E2E2E2;
+    border-radius: 8px;
+}
 #content {
-    width: 585px;
+    width: 345px;
     height: 267px;
 }
 #image {
-    width: 585px;
-    height: 520px;
-    border-radius: 8px;
+    width: 345px;
+    height: 310px;
 }
 .title {
-    width: 600px;
-    height: 80px;
+    width: 720px;
+    height: 60px;
     margin-bottom: 40px;
     font-family: 'Lora';
 }
 .item {
-    width: 380px;
+    width: 345px;
     height: 420px;
 }
 .item-small {
-    width: 216px;
+    width: 220px;
     height: 300px;
 }
 .item-normal {
-    width: 277.5px;
+    width: 345px;
     height: 300px;
 }
 .footer {
-    width: 100%;
+    width: 992;
+    height: 72;
     background-color: #D9D9D9;
-    padding: 20px;
-    margin-top: 40px;
+}
 }
